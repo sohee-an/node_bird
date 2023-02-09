@@ -1,0 +1,13 @@
+/front/build
+react-nodebird.pem
+react-nodebird-aws.pem
+node_modules
+.env
+.next
+
+
+
+
+
+front/.next/cache
+front/.next/
