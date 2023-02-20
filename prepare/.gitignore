@@ -1,5 +1,5 @@
 /front/build
-react-nodebird.pem
+node_bird.pem
 react-nodebird-aws.pem
 node_modules
 .env
