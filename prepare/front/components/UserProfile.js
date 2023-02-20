@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Card, Avatar, Button } from "antd";
 import Link from "next/link";
 
+import styled from "styled-components";
+
 import { logoutRequestAction } from "../reducers/user";
 
 const UserProfile = () => {
@@ -50,11 +52,15 @@ const UserProfile = () => {
         }
         title={me.nickname}
       />
-      <Button onClick={onLogOut} loading={logOutLoading}>
+      <Buttoncustom onClick={onLogOut} loading={logOutLoading}>
         로그아웃
-      </Button>
+      </Buttoncustom>
     </Card>
   );
 };
 
 export default UserProfile;
+
+const Buttoncustom = styled(Button)`
+  margin-top: 20px;
+`;
