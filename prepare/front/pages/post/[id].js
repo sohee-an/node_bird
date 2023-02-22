@@ -76,6 +76,7 @@ export const getServerSideProps = wrapper.getServerSideProps(
       data: context.params.id,
     });
     context.store.dispatch(END);
+
     await context.store.sagaTask.toPromise();
     return { props: {} };
   }
