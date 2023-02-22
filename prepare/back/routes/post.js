@@ -19,13 +19,13 @@ try {
 AWS.config.update({
   accessKeyId: process.env.S3_ACCESS_KEY_ID,
   secretAccessKey: process.env.S3_SECRET_ACCESS_KEY,
-  region: "us-east-1",
+  region: "ap-northeast-2",
 });
 
 const upload = multer({
   storage: multerS3({
     s3: new AWS.S3(),
-    bucket: "elasticbeanstalk-ap-northeast-2-128374859857-s3",
+    bucket: "asonodebird",
     key(req, file, cb) {
       cb(null, `orginal/${Date.now()}_${path.basename(file.orginalname)}`);
     },
