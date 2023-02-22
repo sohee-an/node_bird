@@ -27,7 +27,7 @@ const upload = multer({
     s3: new AWS.S3(),
     bucket: "asonodebird",
     key(req, file, cb) {
-      cb(null, `orginal/${Date.now()}_${path.basename(file.orginalname)}`);
+      cb(null, `original/${Date.now()}_${path.basename(file.originalname)}`);
     },
   }),
   limits: { fileSize: 20 * 1024 * 1024 }, // 20MB
