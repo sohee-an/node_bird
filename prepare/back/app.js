@@ -39,8 +39,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:3060",
-      "nodebirdASO.com",
-      "http://13.125.215.164",
+
+      "http://asonodebird.coding-factory.co.kr",
     ],
     credentials: true,
   })
@@ -54,6 +54,11 @@ app.use(
     saveUninitialized: false,
     resave: false,
     secret: process.env.COOKIE_SECRET,
+    cookie: {
+      httpOnly: true,
+      secure: false,
+      domain: process.env.NODE_ENV === "production" && "coding-factory.co.kr",
+    },
   })
 );
 app.use(passport.initialize());
