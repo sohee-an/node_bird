@@ -6,6 +6,7 @@ next, redux를 이용해서 서비스 만들기,서버사이드렌더링 이해�
 
 - node.js
 - next
+  -styled-component
 
 - nest
 - DB: MYSQL
