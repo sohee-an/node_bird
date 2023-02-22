@@ -9,6 +9,7 @@ mysql,sequilize 사용하기
 
 - node.js
 - next
+  -styled-component
 
 - nest
 - DB: MYSQL
