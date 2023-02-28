@@ -27,9 +27,6 @@ mysql,sequilize 사용하기
 ## front
 
 -'/' : 유저의 프로필과 포스터들
-
-
-
 - 포스터는 10개씩 보여줄 수 있게 구현함(무한스크롤)
 
 
@@ -43,7 +40,8 @@ mysql,sequilize 사용하기
 ![](nodebirdhash.gif)
 
 
-- 이미지와 글 그리고 태그들을 post 할수 있음 
+- 이미지와 글 그리고 태그들을 post 할수 있음
+- 로그인
 
 ![](nodebirdmain.gif)
 
