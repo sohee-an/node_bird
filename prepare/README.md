@@ -30,8 +30,7 @@ mysql,sequilize 사용하기
 
 - 포스터는 10개씩 보여줄 수 있게 구현함(무한스크롤)
 
-만들면서 기록
-https://sly-silverfish-a0d.notion.site/node_bird-14a1e13ed7954f5296d401fa9611a28b
+
 
 ![](nodebirdfollow.gif)
 
