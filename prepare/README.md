@@ -28,13 +28,17 @@ mysql,sequilize 사용하기
 
 -'/' : 유저의 프로필과 포스터들
 
-- '/user/:id': 유저가 쓴 글들만 따로 보여줌
-- '/hashtag/:tag': 유저의 쓴글에 해시태그된 글만 보여줌
+
 
 - 포스터는 10개씩 보여줄 수 있게 구현함(무한스크롤)
 
 
 ![](nodebirdfollow.gif)
+
+
+
+- '/user/:id': 유저가 쓴 글들만 따로 보여줌
+- '/hashtag/:tag': 유저의 쓴글에 해시태그된 글만 보여줌
 
 ![](nodebirdhash.gif)
 
