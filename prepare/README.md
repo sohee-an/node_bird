@@ -8,8 +8,9 @@ mysql,sequilize 사용하기
 - node.js
 - next
 - styled-component
+- redux
 
-- nest
+
 - DB: MYSQL
 - aws(ec2) 배포,s3
 
