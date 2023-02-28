@@ -42,8 +42,13 @@ mysql,sequilize 사용하기
 
 ![](nodebirdhash.gif)
 
+
 - 이미지와 글 그리고 태그들을 post 할수 있음 
 
 ![](nodebirdmain.gif)
+
+
+- 팔로우 언팔로우를 할 수 있음 
+- 자신의 팔로우 팔로워를 한번에 볼 수 있음 
 
 ![](nodebirdprofile.gif)
