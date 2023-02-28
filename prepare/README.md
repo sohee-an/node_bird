@@ -22,18 +22,26 @@ next, redux를 이용해서 서비스 만들기,서버사이드렌더링 이해�
 
 -'/' : 유저의 프로필과 포스터들
 
-- '/user/:id': 유저가 쓴 글들을 보여줌
-- '/hashtag/:tag': 유저의 쓴글에 해시태그된 글만 보여줌
-
+- 회워가입 로그인 가능
 - 포스터는 10개씩 보여줄 수 있게 구현함(무한스크롤)
-
-만들면서 기록
-https://sly-silverfish-a0d.notion.site/node_bird-14a1e13ed7954f5296d401fa9611a28b
 
 ![](nodebirdfollow.gif)
 
+- '/user/:id': 유저가 쓴 글들을 보여줌
+- '/hashtag/:tag': 유저의 쓴글에 해시태그된 글만 보여줌
+
 ![](nodebirdhash.gif)
+
+- 이미지,글 ,태그들을 post 할 수 있음
 
 ![](nodebirdmain.gif)
 
+- 팔로우 언팔로우 기능 가능 -자신의 팔로우 팔로워를 한번에 볼 수 있음
+
 ![](nodebirdprofile.gif)
+
+-좋아요 등록 취소 할 수 있음
+
+- 댓글 구현
+
+![](nodebirlike.gif)
