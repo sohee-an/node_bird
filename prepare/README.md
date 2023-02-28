@@ -42,6 +42,8 @@ mysql,sequilize 사용하기
 
 ![](nodebirdhash.gif)
 
+- 이미지와 글 그리고 태그들을 post 할수 있음 
+
 ![](nodebirdmain.gif)
 
 ![](nodebirdprofile.gif)
