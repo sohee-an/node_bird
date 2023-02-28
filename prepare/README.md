@@ -10,11 +10,14 @@ next, redux를 이용해서 서비스 만들기,서버사이드렌더링 이해�
 
 - nest
 - DB: MYSQL
+- aws(ec2) 배포,s3
+
+배포)http://asonodebird.coding-factory.co.kr/
 
 ## back
 
 - user : 유저의 정보 불러오기,정보 업데이트 등
-- post : 게시글 등록,삭제 등 구현, 팔로우 언팔로우 등 구현
+- post : 게시글 등록,삭제 등 구현, 팔로우 언팔로우 , 댓글, 좋아요 등 구현
 - posts: 게시글 10개씩 불러오기
 - hashtag: hashtag된 게시글 불러오기
 
