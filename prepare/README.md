@@ -9,6 +9,7 @@ mysql,sequilize 사용하기
 - next
 - styled-component
 - redux
+- saga
 
 
 - DB: MYSQL
