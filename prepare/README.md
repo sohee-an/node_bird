@@ -38,16 +38,17 @@ mysql,sequilize 사용하기
 ![](nodebirdhash.gif)
 
 - 이미지와 글 그리고 태그들을 post 할수 있음
-- 로그인
+- 로그인,회원가입 구현
 
 ![](nodebirdmain.gif)
 
 - 팔로우 언팔로우를 할 수 있음
 - 자신의 팔로우 팔로워를 한번에 볼 수 있음
+- 유저가 쓴 글만 따로 볼 수 있음
 
 ![](nodebirdprofile.gif)
 
--좋아요 등록, 취소 할 수 있음
+- 좋아요 등록, 취소 할 수 있음
 
 - 댓글 구현
 
